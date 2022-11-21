@@ -1,0 +1,44 @@
+body {
+width: 100%;
+height: 20%;
+background-image: linear-gradient(#3f3f42, #79c1e8), url(imgbg)
+}
+.container{
+    max-width: 1400px;
+}   
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    display: inline-block;
+
+}
+.nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    border-radius: 30px;
+}
+.menu-principal {
+width: 100%;
+background-color: #252323;
+height: 150px;
+}
+main{
+margin: 0 auto;
+width: 100px;
+position: relative;
+height: 100px;
+}
+.daniel {
+display: inline-block;    
+padding: 16px;
+width: 150px;  
+font-family: 'Roboto', sans-serif; 
+}
